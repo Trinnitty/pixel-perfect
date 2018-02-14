@@ -171,6 +171,7 @@ section.main_img {
 .four_textarea .textarea {
 	font-size: 0;
 	max-width: 100%; 
+	overflow: hidden;
 }
 .four_textarea .textarea  article {
 	-webkit-box-sizing: border-box;
@@ -222,10 +223,10 @@ main{
 
 }
 main .the_team{
-/*	text-align: center;	
-*/	font-size: 40px;
+	font-size: 40px;
 	color: #ffb540;
 	font-family: 'Myriad Pro', sans-serif;
+
 }
 main .the_team h2{
 	display: inline-block;
@@ -245,6 +246,7 @@ main .hr {
 .meet_the_team {
 	font-size: 0;
 	height: auto;
+	overflow: hidden;
 }
 .meet_the_team article{
 	width: 400px;
